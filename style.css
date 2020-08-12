@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 800px;
+}
+a{
+    text-decoration: none;
+    color:#48649f
+}
+.container{
+
+}
+.headr {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3b5998;
+    align-items: flex-end;
+    padding: 10px;
+} 
+.intro{
+    color:#0e385f;
+}
+.firstPhoto{
+    width: 200px;
+}
+.emailcolor {
+    color: white;
+}
+.btn1 {
+    background-color: #3f5c9B ;
+    color: white;
+}
+.signup{
+    border-bottom: 2px solid #96a6c5;
+    margin-bottom: 10px;
+    color: #0e385f;
+    padding: 5px 0;
+}
+.content{
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom,white,#d3d9e8);
+}
+.part2{
+    text-align: left;
+}
+.form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    border-bottom: 2px solid #96a6c5;
+}
+.text{
+    text-align: right;
+    color: #0e385f;
+}
+.form input[type=text]{
+    margin: 3px 1px;
+    height: 30px;
+    width: 200px;
+}
+.sex{
+    width: 50%;
+    border-radius: 5px;
+}
+.birthday{
+    width: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:5px;
+    margin: 3px 0;
+}
+.birthday select{
+    border-radius: 5px;
+}
+.terms{
+    margin: 20px 0;
+}
+.signup-button{
+    color: white;
+    background: #67a54b;
+    width: 50%;
+    height: 30px;
+    margin-bottom:10px ;
+}
+.create{
+    margin-top: 10px ;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.lang{
+    display:  flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #cccccc;
+}
+.footer-bottom{
+    padding: 10px;
+    display:  flex;
+    justify-content: space-between;
+}
+.links{
+    
+    text-align: right;
+}
